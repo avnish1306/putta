@@ -67,7 +67,6 @@ export default class App extends React.Component {
             <div className="Input">
               <InputComponent sendInput = {this.getInput} requested = {this.state.requested}/>
               </div>
-              {this.state.input}
               <div className="Output">
             <OutputComponent output = {this.state.output}/>
             </div>
