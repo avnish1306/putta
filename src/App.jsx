@@ -39,7 +39,7 @@ export default class App extends React.Component {
         'cmd':input
       }
     this.setState({requested:true});
-    fetch(this.state.url+'/ques/cmd',{
+    fetch(this.state.url,{
       method: 'POST',
       headers: {
         'Accept': 'application/json',
