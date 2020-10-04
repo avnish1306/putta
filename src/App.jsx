@@ -31,6 +31,10 @@ export default class App extends React.Component {
     return this.state.output;
   }
   getInput = input=>{
+    if(this.state.url === '') {
+      alert('Target URL field is empty');
+      return;
+  }
     //console.log(this.state,input);
     this.setState({input:input});
     
