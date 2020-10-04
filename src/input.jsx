@@ -69,6 +69,7 @@ export default class InputComponent extends React.Component{
                          ref='myInput'
                          rows='15' value={this.state.input}
                          onKeyDown={this.handleKeyDown}
+                         onChange={()=>{}}
                          readOnly={this.props.requestDone}
                          name="name"
                          />
