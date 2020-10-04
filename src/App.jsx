@@ -52,6 +52,7 @@ export default class App extends React.Component {
       body: JSON.stringify(data),
     }).then(function(response) {
         if (!response.ok) {
+            alert('Some Problem Occurred! Response is ' + response.status + " " + response.statusText);
             throw Error(response.statusText);
         }
         return response.json();
