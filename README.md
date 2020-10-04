@@ -4,7 +4,7 @@ You can take remote control of the machine where this node server is running.
 Steps:
 - start the server on the target machine (Server is located in folder name "Server".
 - start the react app
-- enter the url <domain>:<port>/path (default is http://localhost:8000/server/cmd
+- enter the url [domain]:[port]/path (default is http://localhost:8000/server/cmd
 - use the cmd in browser
 
 
