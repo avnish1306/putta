@@ -7,10 +7,11 @@ export default class OutputComponent extends React.Component{
         };
     }
     render() {
-       return <div className='outputDiv'>
-                    <label>Output: </label>
+       return <>
+       <label className='inputClearButton'> Output</label>
+       <hr />
                         <textarea className='outputTextArea' rows='25' value={this.props.output}  readOnly name="name" />
                    
-               </div>
+               </>
        }
  }
