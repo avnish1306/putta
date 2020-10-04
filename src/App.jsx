@@ -68,7 +68,9 @@ export default class App extends React.Component {
   }
   render() {
     return <div className="App">
+    <br />
     <input type="text" className='urlInput' placeholder='Enter Url to hit' onChange={this.setUrl} name="name" />
+    <br />
             <div className="Input">
               <InputComponent sendInput = {this.getInput} requested = {this.state.requested}/>
               </div>

@@ -60,9 +60,10 @@ export default class InputComponent extends React.Component{
 
       }
     render() {
-       return <div className='inputDiv'>
+       return <>
                     <label>Command:  </label>
                     <button onClick={this.clearInput} className='inputClearButton'> Clear</button>
+                    <hr />
                         <textarea
                         className='inputTextArea'
                          ref='myInput'
@@ -72,6 +73,6 @@ export default class InputComponent extends React.Component{
                          name="name"
                          />
 
-               </div>
+               </>
        }
  }
